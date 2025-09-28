@@ -31,37 +31,37 @@ Este proyecto se desarrollará colaborativamente, con tareas individuales asigna
 
 ## 2. Tareas y asignaciones
 
-Para organizar el desarrollo, las siguientes tareas están divididas para que cada integrante pueda enfocarse en un módulo específico:
+Para organizar el desarrollo, las siguientes tareas están divididas para que cada integrante pueda enfocarse en un módulo específico y debe generar una sub-rama dentro de la rama de deploy para desarollar la tarea
 
-### Tarea 1: Desarrollo de la pestaña de carga de datos
+### Tarea 1: Desarrollo de la pestaña de carga de datos (Prioritaria)
 
 - Implementar la funcionalidad para subir un archivo CSV con moléculas y etiquetas.
 - Validar el formato del CSV, manejo de errores y estandarización de nombres de columnas para que sean compatibles con el resto de la app.
 - Integrar la opción de elegir entre carga manual o descarga de datos desde ChEMBL y PubMed (esta parte es opcional y se desarrollará si hay tiempo).
 
-### Tarea 2: Integración con ChEMBL
+### Tarea 2: Integración con ChEMBL (Secundaria)
 
 - Desarrollar el código para consultar la API de ChEMBL.
 - Extraer los datos de bioactividad de un target proteico o bioassay específico.
 - Obtener los SMILES y la etiqueta de actividad para incorporarlos a la app.
 
-### Tarea 3: Integración con PubMed Assays
+### Tarea 3: Integración con PubMed Assays (Secundaria)
 
 - Implementar la extracción de datos de PubMed assay.
 - Obtener los SMILES y etiquetas de actividad.
 - Esta tarea es opcional y se llevará a cabo si el tiempo lo permite.
 
-### Tarea 4: Desarrollo de la pestaña de análisis y visualización de datos
+### Tarea 4: Desarrollo de la pestaña de análisis y visualización de datos (Prioritaria)
 
 - Crear visualizaciones para mostrar la distribución total de datos, cantidad de activos e inactivos.
 - Mostrar la distribución de similitud molecular diferenciando entre activos e inactivos.
 
-### Tarea 5: Visualización separada de activos e inactivos
+### Tarea 5: Visualización separada de activos e inactivos (Secundaria)
 
 - Desarrollar subsecciones para activos e inactivos.
 - Mostrar gráficos de propiedades fisicoquímicas y similitudes para cada grupo por separado.
 
-### Tarea 6: Resumen y recomendaciones de modelos
+### Tarea 6: Resumen y recomendaciones de modelos (Prioritaria)
 
 - Implementar la pestaña que sintetice toda la información.
 - Basándose en las características del dataset (cantidad, distribución, etc.), generar recomendaciones automáticas de modelos IA.
@@ -76,8 +76,8 @@ Antes de comenzar a trabajar en la app, asegurate de tener instalado y configura
 - **Git:** Para controlar versiones y colaborar con el repositorio.
 - **Python 3.8+** (recomendado usar Anaconda/Miniconda para manejar ambientes).
 - **Conda:** Para crear y manejar entornos aislados.
-- **Acceso al repositorio de GitHub:** Pedí acceso o cloná el repositorio donde está el código.
-- **Cuenta en Streamlit Cloud:** Para desplegar la app y visualizar los cambios en línea.
+- **Acceso al repositorio de GitHub:** Envíale al lider del proyecto tu usuario de GitHub y cloná el repositorio donde está el código.
+- **Visual studio code** Para desarrollar la app
 
 ---
 
@@ -170,17 +170,15 @@ Para integrar tus cambios a la rama `develop`:
 
 1. Subí tu rama feature al repositorio remoto (como en el paso anterior).
 2. En GitHub, crea un Pull Request desde tu rama feature hacia `develop`.
-3. Esperá revisiones y aprobaciones.
-4. Una vez aprobado, hacé merge a `develop`.
+3. Avisá al lider del proyecto para esperar revisiones y aprobaciones.
+4. Una vez aprobado, el lider del proyecto hará el merge a `develop`.
 
 ---
 
 ## 9. Deploy en Streamlit Cloud
 
-- El deploy es automático cuando se hacen push a la rama configurada (por ejemplo, `main` o `develop`).
-- Cada push actualiza la app en línea.
-- Revisá el dashboard de Streamlit Cloud para ver logs y estado del deploy.
-
+- El deploy es automático cuando se hacen push a la rama configurada (en este caso a `main`).
+- En este caso, estaremos trabajando en la rama de develop. Haremos el merge a mail cuando las tareas estén completadas.
 ---
 
 ## 10. Buenas prácticas
@@ -189,7 +187,6 @@ Para integrar tus cambios a la rama `develop`:
 - Comentar el código para facilitar la colaboración.
 - Mantener el entorno local actualizado con los últimos cambios del repo.
 - Probar la app localmente antes de subir cambios.
-- Revisar y aceptar PRs con cuidado para evitar bugs.
 
 ---
 
@@ -205,6 +202,16 @@ Para integrar tus cambios a la rama `develop`:
 
 - Preguntá en el canal de Discord del equipo.
 - Contactá al responsable del proyecto.
+
+### Material de consulta
+- [Tutorial de Streamlit](https://docs.streamlit.io/develop/tutorials)
+- [Uso de RDKit](https://www.rdkit.org/docs/GettingStartedInPython.html)
+- [Tutorial de GitHub](https://rsg-argentina.netlify.app/workshops/introduccion_a_git_y_github/)
+- [Tutorial de Python](https://rsg-argentina.netlify.app/workshops/introduccion_a_python/)
+- [Guía de uso con ejemplos de acceso a PubChem y ChEMBL](https://bioinformatica-iib.github.io/quimioinformatica/practicos/TP01/)
+- [Guía de procesamientos de datos químicos](https://bioinformatica-iib.github.io/quimioinformatica/practicos/TP02/)
+- [Guía de uso de Caracterización y de moléculas](https://bioinformatica-iib.github.io/quimioinformatica/practicos/TP03/)
+- [Guía de cálculos de similitud de moléculas](https://bioinformatica-iib.github.io/quimioinformatica/practicos/TP04/)
 
 ---
 
