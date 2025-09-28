@@ -1,0 +1,4 @@
+smiles,activity
+CCO,active
+CCC(=O)O,inactive
+C1=CC=CC=C1,active
