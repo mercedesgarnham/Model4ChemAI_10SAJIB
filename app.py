@@ -364,7 +364,7 @@ with tab5:
 
     - Mercedes Didier Garnham (IIB - EByN - UNSAM / CONICET)  
     - Con la colaboración de Nicolás Perez Mauad (IQUIMEFA - UBA / CONICET)  
-    - Proyecto desarrollado durante la **hackatón 10SAJIB** organizada por **RSG Argentina** (https://rsg-argentina.netlify.app/talk/10sajib/)[https://rsg-argentina.netlify.app/talk/10sajib/]
+    - Proyecto desarrollado durante la **hackatón 10SAJIB** organizada por **RSG Argentina** [https://rsg-argentina.netlify.app/talk/10sajib/](https://rsg-argentina.netlify.app/talk/10sajib/)
     ---
 
     ## Requisitos técnicos

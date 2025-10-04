@@ -28,7 +28,7 @@ Se puede usar con archivos CSV locales que contengan columnas `smiles` y `activi
 
 ## Cómo usar la herramienta
 
-1. Abrir la aplicación web en la URL: (https://model4chemai.streamlit.app/)[https://model4chemai.streamlit.app/]
+1. Abrir la aplicación web en la URL: [https://model4chemai.streamlit.app/](https://model4chemai.streamlit.app/)
 .
 2. Navegar entre las pestañas:
    - **Carga de datos**: subir tu CSV.
@@ -43,7 +43,7 @@ Se puede usar con archivos CSV locales que contengan columnas `smiles` y `activi
 
 - Mercedes Didier Garnham (IIB - EByN - UNSAM / CONICET)  
 - Con la colaboración de Nicolás Perez Mauad (IQUIMEFA - UBA / CONICET)  
-- Proyecto desarrollado durante la **hackatón 10SAJIB** organizada por **RSG Argentina** (https://rsg-argentina.netlify.app/talk/10sajib/)[https://rsg-argentina.netlify.app/talk/10sajib/]
+- Proyecto desarrollado durante la **hackatón 10SAJIB** organizada por **RSG Argentina** [https://rsg-argentina.netlify.app/talk/10sajib/](https://rsg-argentina.netlify.app/talk/10sajib/)
 
 ---
 
