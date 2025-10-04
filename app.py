@@ -352,7 +352,7 @@ with tab5:
 
     1. Abrir la aplicación web en la URL proporcionada.
     2. Navegar entre las pestañas:
-       - **Carga de datos**: subir tu CSV o descargar desde ChEMBL.
+       - **Carga de datos**: subir tu CSV.
        - **Análisis**: ver conteo de clases, ratio, histogramas y heatmaps.
        - **Visualización**: gráficos interactivos de distribución y similitudes.
        - **Sugerencia de modelo**: obtener recomendaciones de modelo de ML según tus datos.
