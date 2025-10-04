@@ -10,7 +10,6 @@ Se puede usar con archivos CSV locales que contengan columnas `smiles` y `activi
 
 ### 1. Carga de datos
 - Subir archivos CSV con moléculas (`smiles`) y actividades (`activity`).
-- Descargar bioensayos desde ChEMBL usando un `target_chembl_id`.
 
 ### 2. Análisis
 - Conteo de moléculas por clase (`activo` / `inactivo`).
@@ -19,7 +18,7 @@ Se puede usar con archivos CSV locales que contengan columnas `smiles` y `activi
 - Histogramas y heatmaps de similitudes moleculares.
 
 ### 3. Visualización
-- Gráfico de barras y pie chart de distribución de clases.
+- Gráfico de barras de distribución de clases.
 - Heatmaps y histogramas de similitud para cada clase.
 
 ### 4. Sugerencia de modelo
