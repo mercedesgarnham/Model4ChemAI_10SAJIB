@@ -64,7 +64,7 @@ with tab1:
                             "i": "inactivo",
                             "inactive": "inactivo",
                             "inact": "inactivo",
-                            "0": "activo"
+                            "0": "inactivo"
                         }
                         df["activity"] = df["activity"].replace(rename_activity)
 
