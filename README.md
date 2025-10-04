@@ -2,7 +2,7 @@
 
 ## Descripción
 Esta herramienta web permite **cargar, analizar y visualizar datos de moléculas** de manera interactiva.  
-Se puede usar con archivos CSV locales que contengan columnas `smiles` y `activity`, o descargando bioensayos directamente desde ChEMBL.
+Se puede usar con archivos CSV locales que contengan columnas `smiles` y `activity`.
 
 ---
 
