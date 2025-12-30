@@ -13,7 +13,7 @@ import numpy as np
 from rdkit import Chem
 from rdkit.Chem import AllChem, DataStructs
 
-st.title("Model4ChemAI")
+st.title("Model4ChemAI (Versión Beta)")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Carga de datos", "Comparación entre clases", "Visualización intra clases", "Sugerencia de modelo", "Documentación"])
 
